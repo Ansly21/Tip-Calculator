@@ -10,6 +10,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Instructions](#instructions)
 - [Author](#author)
 
 
@@ -44,6 +45,11 @@ Users should be able to:
 - Desktop-first workflow
 
 
+## Instructions
+- When using the custom tip percent, click on the SPLITTER heading to calculate, thanks.
+
 ## Author
 
 - Frontend Mentor - [@Median21](https://www.frontendmentor.io/profile/Median21)
+
+
