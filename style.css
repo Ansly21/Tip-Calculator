@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 41%, 84%);
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+    min-width: 555px;
+}
+
+.splitter {
+    letter-spacing: 1rem;
+    text-align: center;
+    color: hsl(183, 100%, 15%);
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+}
+
+.content-container {
+    display: grid;
+    background-color: white;
+    padding: 4rem 2rem 3rem 2rem;
+    grid-template-columns: 400px 450px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    
+}
+
+.left-content {
+    justify-self: center;
+    align-self: center;
+    font-family: 'Space Mono', monospace;
+    margin-right: 2rem;
+}
+
+.left-content h2 {
+    color: hsl(184, 14%, 56%);
+    font-size: 1rem;
+}
+
+.bill {
+    margin-top: 0;
+}
+
+.select-tip {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.upp-btn {
+    margin-bottom: 1rem;
+}
+
+.left-content button {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    width: 110px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+}
+
+.left-content button:focus {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);;
+}
+
+.left-content input {
+    width: 110px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem 0.5rem 0.7rem 0.5rem;
+    background-color: hsl(189, 41%, 97%);
+    border: 0;
+    font-weight: 700;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    outline-color: hsl(172, 67%, 45%);
+    font-family: 'Space Mono', monospace;
+}
+
+.left-content .input-1, .left-content .input-3 {
+    width: 365px;
+}
+
+.margin-left {
+    margin-left: 0.5rem;
+}
+
+.right-content {
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+    margin-left: 2rem;
+    justify-content: start
+}
+
+.tip-container, .total-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.total-container {
+    margin-bottom: 8rem;
+}
+
+.right-content h2 {
+    color: hsl(189, 41%, 97%);
+    margin-bottom: 0;
+    font-size: 1rem;
+    
+}
+
+.right-content h3 {
+    color: hsl(172, 67%, 45%);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.right-content h4 {
+    color: hsl(184, 14%, 56%);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.right-content button {
+    background-color:   hsl(185, 41%, 84%);
+    border: 0;
+    opacity: 20%;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.right-content button:hover {
+    opacity: 100%;
+}
+
+.select-h {
+    margin-top: 2rem;
+}
+
+
+
+@media (max-width:950px) {
+    .content-container {
+        grid-template-columns: 450px;
+        grid-template-rows: 400px auto;
+        justify-content: center;
+        border-radius: 20px;
+        margin-bottom: 5rem;
+  
+    }
+
+    .left-content {
+        margin-right: 0;
+    }
+    .upp-btn {
+        margin-bottom: 0;
+    }
+
+    .select-tip {
+        flex-direction: row;
+        text-align: center;
+   
+    }
+
+    .select-tip button {
+        width: 210px;
+        margin-bottom: 1rem;
+    }
+
+    .left-content input {
+        border-radius: 5px;
+    }
+
+    .select-tip input {
+        width: 210px;
+        text-align: center;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+
+    .left-content .input-1, .left-content .input-3 {
+        width: 100%;
+    }
+    
+    .margin-left {
+        margin: 0;
+    }
+
+    .right-content {
+        padding: 3rem 2rem;
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+    .total-container {
+        margin-bottom: 1rem;
+    }
+    .right-content button {
+        margin-top: 0;
+    }
+
+    .people-h {
+        margin-top: 0;
+    }
+
+    .select-tip .fift {
+        margin-bottom: 0;
+    }
+
+}

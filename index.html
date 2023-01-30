@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <h1 class="splitter" onclick="calculate()">SPLI<br>TTER</h1>
+
+    <section class="content-container">
+      <div class="left-content">
+        <h2 class="bill">Bill</h2>
+        <input id="bill-inp" class="input-1" type="number" name="" id="" placeholder="0">
+
+        <h2 class="select-h">Select Tip %</h2>
+        <div class="select-tip">
+ 
+            <div class="upp-btn">
+            <button onclick="calculate(0.05)">5%</button>
+            <button onclick="calculate(0.10)" class="margin-left">10%</button>
+            <button onclick="calculate(0.15)" class="margin-left fift">15%</button>
+        </div>
+        <div class="split-btn">
+          <button onclick="calculate(0.25)">25%</button>
+          <button onclick="calculate(0.5)" class="margin-left">50%</button>
+          <input class="margin-left" type="number" name="" id="tip-custom" placeholder="Custom">
+        </div>
+      </div>
+
+        <h2 class="people-h">Number of People</h2>
+        <input id="people-inp" class="input-3" type="number" name="" id="" placeholder="0">
+      </div>
+
+      <div class="right-content">
+        <div class="tip-container">
+          <div>
+            <h2>Tip Amount</h2>
+            <h4>/person</h4>
+          </div>
+          <div>
+            <h3 id="tip-amt">$0.00</h3>
+          </div>
+        </div>
+
+        <div class="total-container">
+          <div>
+            <h2 clas>Total</h2>
+            <h4>/person</h4>
+          </div>
+          <div>
+            <h3 id="total-amt">$0.00</h3>
+          </div>
+        </div>
+
+        <button onclick="reset()">RESET</button>
+
+      </div>
+
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+  
+ <!--  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ansly</a>.
+  </div> -->
+</body>
+</html>
