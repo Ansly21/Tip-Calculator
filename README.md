@@ -1,6 +1,6 @@
 # Frontend Mentor - Tip calculator app solution
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-tip-calculator-built-with-grid-and-flexbox-EPlF-SPRyl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/completed_design.jpg)
+![](./design/completed_design.png)
 
 ### Links
 
