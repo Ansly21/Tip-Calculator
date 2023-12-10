@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Ansly21/Tip-Calculator)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://tip-calculator-ansly.netlify.app)
 
 ## My process
 
